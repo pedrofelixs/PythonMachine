@@ -147,9 +147,9 @@ while True :
                             print("Moedas de R$0.25:", troco_moedas_25)
                         if troco_moedas_5 >= 1:
                             print("Moedas de R$0.05:", troco_moedas_5)
-                    else:
+                    print(
                         #se não tiver troco
-                        (" Compra realizada com sucesso! ")
+                        "Compra realizada com sucesso! ")
         
         elif escolha_usuario == 'a' or escolha_usuario == 'A':
             #usuário escolheu entrar como admnistrador
